@@ -1,8 +1,8 @@
 -- creates  a database and the table states
 -- creates a database hbtn_0d_usa
-CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
+CREATE DATABASE hbtn_0d_usa;
 -- creates a table in database
-CREATE TABLE IF NOT EXISTS states
+CREATE TABLE states
 (
     id INT UNIQUE AUTO_INCREMENT NOT NULL PRIMARY KEY,
     name VARCHAR(256)
