@@ -9,7 +9,3 @@ CREATE TABLE IF NOT EXISTS states
     id INT UNIQUE AUTO_INCREMENT NOT NULL PRIMARY KEY,
     name VARCHAR(256)
 );
-INSERT INTO states(name)
-VALUES ('California'),
-       ('Arizona'),
-       ('Texas');
