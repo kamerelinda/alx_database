@@ -1,2 +1,2 @@
 -- Full description of table without using Describe or Explain
-SHOW TABLE STATUS
+SHOW COLUMNS FROM first_table;
