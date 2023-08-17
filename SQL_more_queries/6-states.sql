@@ -2,6 +2,8 @@
 -- creates a database hbtn_0d_usa
 CREATE DATABASE hbtn_0d_usa;
 -- creates a table in database
+USE hbtn_0d_usa;
+
 CREATE TABLE states
 (
     id INT UNIQUE AUTO_INCREMENT NOT NULL PRIMARY KEY,
